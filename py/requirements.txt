@@ -1,0 +1,13 @@
+# Core
+numpy>=1.21.0
+opencv-python>=4.5.5
+matplotlib>=3.5.0
+
+# XML parsing (standard library, but add for clarity)
+lxml>=4.9.3
+
+# YOLOv8 and Ultralytics
+ultralytics>=8.0.100
+
+# Optional: improves performance for some operations
+torch>=2.0.0

@@ -1,0 +1,32 @@
+# data.yaml
+
+# Paths to training and validation images
+train: dataset/images/train
+val: dataset/images/val
+test: dataset/images/test
+
+# Number of classes
+nc: 20
+
+# Class names in order
+names:
+  - aeroplane
+  - bicycle
+  - bird
+  - boat
+  - bottle
+  - bus
+  - car
+  - cat
+  - chair
+  - cow
+  - diningtable
+  - dog
+  - horse
+  - motorbike
+  - person
+  - pottedplant
+  - sheep
+  - sofa
+  - train
+  - tvmonitor
