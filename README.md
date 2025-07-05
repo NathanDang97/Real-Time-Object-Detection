@@ -13,7 +13,7 @@ This project demonstrates a complete pipeline for real-time object detection usi
 
 ## 📦 Dataset Setup: Pascal VOC 2007 + 2012
 Because the combined dataset is large, it’s not included in this repo. Follow these steps to download:
-1. Download VOC2007 and VOC2012: you can manually download them from Kaggle (see the links in the Acknowledgement [below](https://github.com/NathanDang97/Real-Time-Object-Detection/edit/main/README.md#-acknowledgments))
+1. Download VOC2007 and VOC2012: you can manually download them from Kaggle (see the links in the Acknowledgements [below](#acknowledgments))
 2. After downloading, extract both .zip files into this folder structure: ensure that each ImageSets/Main/ folder contains the train.txt, val.txt, and test.txt files.
 ```
 VOCdevkit/
