@@ -11,6 +11,22 @@ This project demonstrates a complete pipeline for real-time object detection usi
 - **Deployment**: Real-time webcam detection in C++ using OpenCV DNN module
 - **Purpose**: Learn and integrate modern CV models with real-time system-level programming
 
+## 📦 Dataset Setup: Pascal VOC 2007 + 2012
+Because the combined dataset is large, it’s not included in this repo. Follow these steps to download:
+1. Download VOC2007 and VOC2012: you can manually download them from Kaggle (see the links in the Acknowledgement [below](https://github.com/NathanDang97/Real-Time-Object-Detection/edit/main/README.md#-acknowledgments))
+2. After downloading, extract both .zip files into this folder structure: ensure that each ImageSets/Main/ folder contains the train.txt, val.txt, and test.txt files.
+```
+VOCdevkit/
+├── VOC2007/
+│   ├── Annotations/
+│   ├── JPEGImages/
+│   └── ImageSets/
+├── VOC2012/
+│   ├── Annotations/
+│   ├── JPEGImages/
+│   └── ImageSets/
+```
+
 ## 🔧 Usage
 All training and evaluation is done via Python using Ultralytics' YOLOv8 interface. The training and evaluation scripts can be found in the _py_ folder. Run the steps using the following commands.
 1. Prepare the dataset
