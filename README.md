@@ -70,7 +70,7 @@ chmod +x yolo_inference
 ```
 4. To exist, press the key 'Q'.
 
-## 📝 Acknowledgments
+## Acknowledgments
 - Dataset: [PASCAL VOC 2007](https://www.kaggle.com/datasets/zaraks/pascal-voc-2007/data), [PASCAL VOC 2012](https://www.kaggle.com/datasets/gopalbhattrai/pascal-voc-2012-dataset)
 - Model Framework: [YOLOv8 by Ultralytics](https://github.com/ultralytics/ultralytics)
 - Inference Engine: [OpenCV DNN Module](https://docs.opencv.org/4.x/d6/d0f/group__dnn.html)
